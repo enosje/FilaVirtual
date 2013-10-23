@@ -5,10 +5,12 @@
 	<title>Home</title>
 </head>
 <body>
+<c:import url="/WEB-INF/views/cabecalho.jsp" />
 <h1>
 	Hello world!  
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<c:import url="/WEB-INF/views/rodape.jsp"></c:import>
 </body>
 </html>
