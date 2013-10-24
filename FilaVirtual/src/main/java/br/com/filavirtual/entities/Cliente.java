@@ -1,8 +1,8 @@
 package br.com.filavirtual.entities;
 
-public class Cliente {
+public class Cliente extends Usuario{
 
-	private String nome;
-	private String cnpj;
+	
+	private String cpf;
 
 }

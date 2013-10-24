@@ -20,10 +20,8 @@ public class LoginController {
 	}
 	@RequestMapping("logout")
 	public String efetuaLogin(HttpSession session) {
-//	 
-		
+//	
 			session.invalidate();
-		
 		
 	  return "redirect:/";
 	}

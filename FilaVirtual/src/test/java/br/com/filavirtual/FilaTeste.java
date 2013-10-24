@@ -10,7 +10,7 @@ public class FilaTeste {
 		FilaConsultorio fc = new FilaConsultorio();
 		FabricaFichasConsultorio f = new FabricaFichasConsultorio();
 		fc.setPosicaoAtual(0);
-		fc.setPrefixoFicha("FV-");
+		fc.setPrefixoFicha("Medico-");
 		
 		for (int i = 0; i < 200; i++) {
 
