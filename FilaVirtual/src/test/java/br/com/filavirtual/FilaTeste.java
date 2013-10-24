@@ -1,5 +1,7 @@
 package br.com.filavirtual;
 
+import java.util.Date;
+
 import br.com.filavirtual.entities.FilaConsultorio;
 import br.com.filavirtual.service.FabricaFichasConsultorio;
 
@@ -14,7 +16,7 @@ public class FilaTeste {
 		
 		for (int i = 0; i < 200; i++) {
 
-			System.out.println(f.fichaSimples(fc));
+			System.out.println(f.fichaSimples(fc)+"  "+ new Date().toString());
 
 		}
 	}

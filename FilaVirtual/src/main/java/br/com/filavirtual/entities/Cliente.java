@@ -1,8 +1,9 @@
 package br.com.filavirtual.entities;
 
-public class Cliente extends Usuario{
+import java.io.Serializable;
 
+public class Cliente extends Usuario implements Serializable{
+
+	private Senhas senhas;
 	
-	private String cpf;
-
 }
