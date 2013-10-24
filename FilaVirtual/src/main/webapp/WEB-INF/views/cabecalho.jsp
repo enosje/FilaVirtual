@@ -11,7 +11,7 @@
 
 	<form action="">
 		<img src="resources/imagens/java.png" >
-		<table align="right">
+		<table align="right" >
 			<tr>
 				<td>Usuário:</td>
 				<td><input type="text" name="usuario" /></td>
