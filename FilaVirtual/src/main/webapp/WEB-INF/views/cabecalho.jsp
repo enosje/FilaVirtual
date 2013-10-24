@@ -9,7 +9,7 @@
 <body>
 	
 
-	<form action="">
+	<form action="efetuaLogin" method="post">
 		<img src="resources/imagens/java.png" >
 		<table align="right" >
 			<tr>
